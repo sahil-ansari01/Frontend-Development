@@ -1,0 +1,88 @@
+div{
+
+    background-color: rgb(101, 111, 128);
+    height: 100%;
+    width: 100%;
+
+}
+
+#button_1{
+
+    margin-left: 120px;
+    margin-top: 150px;
+    background-color: rgb(101, 111, 128);
+    padding: 10px 20px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 3px solid rgb(196, 108, 7);
+    background-color: none;
+    color: rgb(196, 108, 7);
+
+}
+
+#button_2{
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: rgb(16, 107, 65);
+    padding: 12px 22px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+#button_3{
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: rgb(3, 197, 246);
+    padding: 12px 22px;
+    border: none;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: none;
+    color: white;
+    
+}
+
+#button_4{
+    margin-left: 120px;
+    margin-top: 150px;
+    background-color: rgb(201, 173, 11);
+    padding: 12px 22px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+
+}
+
+#button_5{
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: rgb(101, 111, 128);
+    padding: 10px 20px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 3px solid rgb(81, 6, 167);
+    background-color: none;
+    color: rgb(81, 6, 167);
+
+}
+
+#button_6{
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: rgb(101, 111, 128);
+    padding: 10px 20px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 3px solid rgb(16, 107, 65);
+    background-color: none;
+    color: rgb(16, 107, 65);
+}

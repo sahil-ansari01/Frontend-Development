@@ -1,0 +1,112 @@
+.master{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.left{
+    width: 650px;
+    height: 1000px;
+    float: left;
+}
+
+.coral{
+    width: 600px;
+    height: 400px;
+    background-color: coral;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.yellow{
+    width: 320px;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+    margin-left: 25px;
+}
+
+.green{
+    width: 230px;
+    height: 300px;
+    background-color: green;
+    float: right;
+    margin-right: 25px;
+}
+
+.black{
+    width: 130px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.right{
+    width: 500px;
+    height: 1000px;
+    float: left;
+}
+
+.brown{
+    width: 130px;
+    height: 400px;
+    background-color: brown;
+    float: left;
+    margin-left: 25px;
+}
+
+.darkgreen{
+    width: 130px;
+    height: 400px;
+    background-color: darkgreen;
+    float: left;
+    margin-left: 25px;
+}
+
+.grey{
+    width: 130px;
+    height: 400px;
+    background-color: grey;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.violet{
+    width: 225px;
+    height: 260px;
+    background-color: violet;
+    clear: both;
+    margin-left: 25px;
+    float: left;
+}
+
+.purple{
+    width: 200px;
+    height: 260px;
+    background-color: purple;
+    float: right;
+    margin-right: 25px;
+
+}
+
+.greenyellow{
+    width: 450px;
+    height: 150px;
+    background-color: greenyellow;
+    clear: both;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.navyblue{
+    width: 450px;
+    height: 150px;
+    background-color: navy;
+    clear: both;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
