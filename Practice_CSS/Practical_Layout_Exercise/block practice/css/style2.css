@@ -1,0 +1,41 @@
+.black{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.coral{
+    width: 800px;
+    height: 200px;
+    background-color: coral;
+    margin-bottom: 20px;
+}
+.red{
+    width: 380px;
+    height: 600px;
+    float: left;
+    margin-right: 20px; 
+
+}
+
+.cyan{
+    width: 380px;
+    height: 600px;
+    background-color: cyan;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.yellow{
+    width: 380px;
+    height: 290px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+.yellow2{
+    width: 380px;
+    height: 290px;
+    background-color: yellow;
+}

@@ -1,0 +1,39 @@
+.black {
+    width: 800px;
+    height: 800px;
+    
+    margin: 0 auto;
+}
+
+.coral{
+    width: 800px;
+    height: 200px;
+    background-color: coral;
+    margin-bottom: 15px;
+}
+
+.yellow{
+    width: 370px;
+    height: 370px;
+    background-color: yellow;
+    float: left;
+    margin-right: 30px;
+}
+
+.yellow2{
+    width: 370px;
+    height: 370px;
+    background-color: yellow;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+}
+
+.purple{
+    width: 800px;
+    height: 200px;
+    background-color: purple;
+    clear: both;
+    
+}
