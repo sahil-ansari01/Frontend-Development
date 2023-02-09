@@ -1,0 +1,35 @@
+.master{
+    width: 65%;
+    height: 2000px;
+    background-color: brown;
+    margin: 0 auto;
+    min-width: 700px; 
+}
+
+.box1{
+    width: 50%;
+    height: 600px;
+    background-color: yellow;
+    float: left;
+}
+
+.box2 { 
+    width: 50%;
+    height: 600px;
+    background-color: green;
+    float: right;
+}
+
+.child1{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+
+.child2 {
+    width: 50%;
+    height: 300px;
+    background-color: orange;
+    float: right;
+}
