@@ -1,0 +1,20 @@
+/* body{
+    background-image: url("img/privacy.png");
+} */
+
+body {
+    background-color: crimson;
+    color: white ;
+}
+
+.heading{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+}
+
+.para{
+    background-color: green;
+    width: 100%;
+    height: 50%;
+}

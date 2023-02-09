@@ -1,0 +1,44 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Div Collapse</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <!-- 
+        when ever we apply float to all the elements inside of a div the respective div collapse. Matlb uski heigth and width khatm ho jati hai
+        collapse hone ke reason agar hum margin dete hai to wo margin leta nhi hai
+     -->
+
+     <!-- 
+        Number of solution = 3
+
+        1. Set height of the 
+        2. Set overflow auto
+        3. add content inside / clearfix technique :- in clearfix technique we add content using css
+
+                technique to use clearfix;
+                    clearfix::after{
+                        content:"";
+                        display: block;
+                        clear: both;
+                    } 
+                    and then use this inside class
+      -->
+
+    <body>
+        <div class="box clearfix">
+            <div class="smallbox1">
+
+            </div>
+
+            <div class="smallbox2">
+                     
+            </div>
+        </div>
+    </body>
+</html>

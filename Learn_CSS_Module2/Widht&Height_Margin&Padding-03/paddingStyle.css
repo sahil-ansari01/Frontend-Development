@@ -1,0 +1,14 @@
+p {
+    background-color: darkorange;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    padding: 20px 20px 20px 20px;
+    padding: 25px 20px 60px;
+    padding: 80px 60px;
+    padding: 50px;
+}

@@ -1,0 +1,33 @@
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Position Absolute</title>
+
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <!-- 
+        position-absolute: whenever we use position absolute the parent child relation between the respective element does not meant anything
+                           Matlb ke uska relation uske parent element ke sath khatm hojata hai and uska parent element body ho jata hai.
+                           If we change the position of any element to relative and it's child as absolute than once again the parent child relation between both the
+                           element stabilishes   
+
+                           So basically what it means ke jiss kise bhi element pe agar humne position-relative lagaya, and next element jispe humne position: absolute lagaya
+                           wo dono apass me parent and child ka relation form karlete hai
+     -->
+
+    <body>
+
+        <div class="master">
+
+            <div class="box1"></div>
+
+            <div class="box2"></div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+.master{
+    width: 900px;
+    height: 1000px;
+    background-color: indigo;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: indianred;
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: goldenrod;
+}

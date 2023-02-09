@@ -1,0 +1,12 @@
+@font-face {
+    font-family: me;
+    src: url(fonts/LibreBaskerville-Bold.ttf)
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    font-family: me;
+}

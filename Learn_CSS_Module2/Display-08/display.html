@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+
+        <title>Display</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        
+        <!-- Display has 4 property
+            1. Block
+            2. Inline
+            3. inline-block
+            4. none hides the elements
+        -->
+       <!--  Block level Element
+            
+            1. It covers all the available space
+            2. You can define it's height and width because it is a box
+
+            Advantage: 
+            1. You can define width and height of the elements
+
+            Disadvantage: 
+            1. It covers all the available space.
+        -->
+
+        <!--  Inline level Element
+            
+            1. It covers the area which is required(no necessary area coverage)
+            2. It does'nt have width and height because its a line
+
+            Advantage:
+            1. It only covers the requires area
+
+            Disadvantages:
+            1. we cannot define it's width and height in inline element
+        -->
+
+        <!-- inline-block
+
+            Advantage:
+            1. We must have an option to define widht and height
+            2. The element should not take un-necessary space.
+
+         -->
+
+    <body>
+        <!-- 
+            Block level Element: block level elements are those elements which have
+                                 which have height and width. These elements are generally in the format of box.
+                                 Block level element covers the complete element box when we apply background-color.
+                                 Block level elements always starts from new line because the element prior to it occupy all areas
+
+                                 we can use, display property to change the type from block to 
+                                 inline, like- display: inline; we can't modify the heigth and width after we have use this property
+
+        -->
+        
+        <h1>This is a heading</h1>
+
+        <!-- 
+             Inline level Element: Inline level element does not have any height and width.
+                                   And it only covers the area till where it requires 
+                                   New element start in the same line, and not like Block level elements.
+
+                                   we can use, display property to change the type from inline to 
+                                   block, like- display: block; after using this property we can modify the height and width of the element 
+
+        -->
+
+        <a href="#">This is a demo link</a>
+
+        <!-- inline-block -->
+
+        <h1 class="conv">This is a inline-block element</h1>
+
+        <h1 class="conv">This is a inline-block element</h1>
+
+    </body>
+
+</html>

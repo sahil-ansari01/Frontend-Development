@@ -1,0 +1,38 @@
+h1{
+    color: coral;
+    font-family: Segoe Print;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize; 
+    text-decoration: none;
+    letter-spacing: -2px;
+    direction: ltr;
+    word-spacing: 30px;
+
+}
+
+p{
+    color: cornflowerblue;
+    font-family: Segoe Print;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+    direction: ltr;
+}
+
+a{
+    text-decoration: none;
+    font-family: lato;
+    color: darkgoldenrod;
+    
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(36, 220, 189);
+    color: white;
+    font-family: lato;
+    text-decoration: underline
+}

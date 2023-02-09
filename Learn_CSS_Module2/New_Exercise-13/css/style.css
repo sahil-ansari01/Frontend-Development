@@ -1,0 +1,134 @@
+.master{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.coral{
+    width: 1000px;
+    height: 250px;
+    background-color: coral;
+    margin-bottom: 30px;
+}
+/* method to create same structure in differ
+
+            1st method
+
+.yellow{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.black{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    float: left;
+}
+
+.red{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin-right: 200px; 
+    margin-bottom: 50px;
+    float: left;
+    clear: left;  
+}
+
+.blue{
+    width: 400px;
+    height: 400px;
+    background-color: navy;
+    float: left;
+} */
+
+/*      2nd method
+
+.teal{
+    width: 450px;
+    height: 600px;
+    float: left;
+    margin-right: 50px;
+}
+
+.yellow{
+    width: 450px;
+    height: 300px;
+    background-color: yellow;
+    margin-bottom: 20px;
+
+}
+
+.red{
+    width: 450px;
+    height: 300px;
+    background-color: red;
+    
+}
+
+.purple{
+    width: 450px;
+    height: 300px;
+    margin-left: 50px;
+    float: left;
+}
+
+.black{
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+
+.navyblue{
+    width: 450px;
+    height: 300px;
+    background-color: navy;
+} */
+
+
+
+.teal{
+    width: 1000px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.yellow{
+    width: 450px;
+    height: 250px;
+    background-color: yellow;
+    float: left;
+}
+
+.black{
+    width: 450px;
+    height: 250px;
+    background-color: black;
+    float: right;
+}
+
+.purple{
+    width: 1000px;
+    height: 250px;
+}
+
+.red{
+    width: 450px;
+    height: 250px;
+    background-color: red;
+    float: left;
+}
+
+.navyblue{
+    width: 450px;
+    height: 250px;
+    background-color: navy;
+    float: right;
+     
+}
