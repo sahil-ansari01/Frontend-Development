@@ -1,0 +1,52 @@
+All Assignment resources are available here:
+
+https://hinditechtutorials.com/resources/
+
+Assignment submitting link:
+https://learn.rajdeepdhakad.com/submit/
+
+Font Awesome CDN:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+Font Awesome Alternative:
+Link: https://boxicons.com/
+
+How to use: https://boxicons.com/usage
+
+CSS clip-path maker:
+https://bennettfeely.com/clippy/
+
+Gradient Generator:
+https://cssgradient.io/
+
+Photoshop Alternative:
+https://www.photopea.com/
+
+For CDN:
+
+https://cdnjs.com/
+
+Website Template:
+https://colorlib.com/wp/templates/
+https://www.free-css.com/free-css-templates
+https://templatemo.com/
+ 
+PSD website Template
+https://www.freepik.com/free-photos-vectors/website-templates
+https://freebiesbug.com/psd-freebies/website-template/
+
+The Strangest Secret by Earl Nightingale:
+   English    https://youtu.be/F4s1Fyh4HAg
+   Hindi      https://youtu.be/h7U_pEHwKIA
+
+Full Page Screen Capture
+https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en
+
+how to identify font from image :
+https://www.myfonts.com/WhatTheFont/
+
+Image to Text converter :
+https://www.onlineocr.net/
+
+Different between bootstrap 3, 4 and 5
+link : https://www.javatpoint.com/bootstrap-3-vs-bootstrap-4#:~:text=1.&text=Bootstrap%203%20has%204%20tier,2 
