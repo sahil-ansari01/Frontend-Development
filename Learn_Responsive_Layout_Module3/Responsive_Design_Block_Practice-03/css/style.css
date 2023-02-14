@@ -1,0 +1,85 @@
+.master{
+    width: 70%;
+    height: 1600px;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    margin-top: 30px;
+}
+
+.left{
+    width: 65%;
+    height: 1200px;
+    float: left;
+}
+
+.left .blog{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    background-color: grey;
+}
+
+.right{
+    width: 30%;
+    height: 1200px;
+    float: right;
+    margin-bottom: 130px;
+}
+
+.right .newsletter{
+    width: 100%;
+    height: 230px;
+    margin-top: 30px;
+    background-color: grey;
+    padding-bottom: 30px;
+}
+.right .credit{
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+    margin-top: 30px;
+}
+
+.right .small-box1{
+    width: 45%;
+    height: 120px;
+    float: left;
+    margin-top: 30px;
+    background-color: grey;
+}
+
+.right .small-box2{
+    width: 45%;
+    height: 120px;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: grey;
+}
+
+.right .social{
+    width: 100%;
+    height: 150px;
+    clear: both;
+    background-color: grey;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    clear: both;
+    
+    background-color: grey;
+}

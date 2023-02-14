@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <!-- 
+        Rule 1:
+        
+        Use percentage instead of pixels
+
+        pixels: fixed value
+        percentage: relative value;
+
+        browser-size: 2000px
+        65% -> 1300px
+
+        mobile-browser-size: 500px
+        65% -> 325px
+
+        browser : 1000px
+        .master 70%: 700px
+            .box1 50%: 350px
+                .child1 50%: 175px
+                .child2 50%: 175px
+            .box2 50%: 350px
+    
+        Rule 2:
+            use min-width: to set a limit till where your websites element will get squezzed
+
+        Rule 3: 
+            use max-width: to set a limit for websites elements till where we can stretched it.
+    -->
+
+    <body>
+        <div class="master">
+            <div class="box1">
+                <div class="child1"></div>
+                <div class="child2"></div>
+            </div>
+            <div class="box2"></div>
+        </div>
+    </body>
+</html>

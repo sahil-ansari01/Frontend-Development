@@ -1,0 +1,49 @@
+.master{
+    width: 80%;
+    height: 1000px;
+    background-color: greenyellow;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 33%;
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.box2 {
+    width: 33%;
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.box3 {
+    width: 33%;
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    text-align: center;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 900px){
+    .box1{
+        width: 80%;
+        clear: both;
+    }
+
+    .box2{
+        width: 80%;
+        clear: both;
+    }
+
+    .box3{
+        width: 80%;
+        clear: both;
+    }
+}

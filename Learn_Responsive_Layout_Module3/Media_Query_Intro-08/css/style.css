@@ -1,0 +1,47 @@
+.master{
+    width: 80%;
+    height: 500px;
+    background-color: brown;
+    margin: 0 auto;
+
+}
+/* 
+.box1{
+    width: 50%;
+    height: 250px;
+    background-color: greenyellow;
+    float: left;
+}
+
+.box2{
+    width: 50%;
+    height: 250px;
+    background-color: purple;
+    float: left;
+} */
+
+h1{
+    font-size: 200px;
+    font-family: serif;
+}
+/* @media only screen and (max-width: 1000px) { */
+    /* .box1{
+        background-color: indigo;
+        width: 100%;
+        clear: both;
+    }
+
+    .box2{
+        background-color: grey;
+        width: 100%;
+        clear: both;
+    } */
+
+/* }  */
+ 
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 50px;
+    }
+}
