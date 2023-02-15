@@ -4,7 +4,8 @@
 Up untill now I've learned:
  1. HTML
  2. CSS
- 3. Responsive Layout
+ 3. Responsive Layout 
+    a. Media Query
 
 You can Visit to various folder each cotains information to specific topic.
  
