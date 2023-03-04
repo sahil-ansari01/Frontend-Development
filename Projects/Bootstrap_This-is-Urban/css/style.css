@@ -1,0 +1,169 @@
+    /* Applying same font throughout the body */
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Scope One", serif;
+    }
+
+    /* Clearfix */
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;    
+    }
+
+    /* Header, navigation, background and Banner */
+    .header{
+        height: 900px;
+        background-image: url("../img/banner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        color: #fff;
+        font-family: "Scope one", serif;
+    }
+
+    /* Navigation bar */
+
+    .urban{
+        color: #3498db;
+        font-family: "Scope One", serif;;
+    }
+
+    .header h1{
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .banner{
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    .banner h2{
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .banner p{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .banner button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        background-color: #3498db;
+        font-family: "Scope one", serif;
+    }
+
+    /* For all section this changes will be applied */
+
+    .row img{
+        border-radius: 100%;
+    }
+
+    .same-changes{
+        margin: 50px 0;
+    }
+
+
+    /* Section 1 */
+    .content h3 {
+        font-family: "Scope one", serif;
+        font-weight: 700;
+    }
+
+    .content p{
+        font-family: "Scope one", serif;
+        color: grey;
+        line-height: 25px;
+        padding-top: 20px;
+    }
+    .content button {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        background-color: #3498db;
+        font-family: "Scope one", serif;
+    }
+
+
+
+    /* Section 2 */
+    .sec2{
+        background-color: #3498db;
+        padding: 50px 0;
+    }
+
+    .section-2 h3 {
+        font-family: "Scope one", serif;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .section-2 p {
+        font-family: "Scope one", serif;
+        color: grey;
+        line-height: 25px;
+        color: #dbdbdb;
+        padding-top: 20px;
+    }
+
+    .section-2 button {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 20px;
+        background-color: #fff;
+        color: #3498db;
+        font-family: "Scope one", serif;
+    }
+
+    /* Section 3 */
+    .section-3{
+        text-align: center;
+        font-family: "Scope one", serif;
+        
+    }
+
+    .section-3 p{
+        padding-bottom: 30px;
+    }
+    .section-3 h2{
+        font-weight: 600;
+    }
+
+    .section-3 .three-sec p{
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .section-3 button {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: #3498db;
+        font-family: "Scope one", serif;
+    }
+
+    /* Footer section */
+    .full-footer{
+        text-align: center;
+    }
+
+    .footer .fa{
+        font-size: 25px;
+        padding: 10px;
+        /* margin-left: 15px; */
+        margin: 30px 5px;
+        border: 1px solid grey;
+        border-radius: 100%;
+    }
