@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Offset</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+      .blue{
+        height: 400px;
+        background-color: blue;
+      }
+
+      .green{
+        height: 400px;
+        background-color: green;
+      }
+
+      .col1{
+        height: 300px;
+        background-color: brown;
+      }
+
+      .col2{
+        height: 300px;
+        background-color: orange;
+      }
+
+      .col3{
+        height: 300px;
+        background-color: grey;
+      }
+
+      .col4{
+        height: 300px;
+        background-color: plum;
+      }
+    </style>
+</head>
+
+<!-- 
+      Offset : Offset means setting margin-left for a div.
+      
+      note; before applying offset make sure to have column ava
+          
+-->
+
+<body>
+    
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-lg-6 col-lg-offset-6 blue"></div> -->
+        <!-- <div class="col-lg-6 green"></div> -->
+      </div>
+
+
+      <div class="row">
+        <!-- <div class="col-lg-3 col1"></div> -->
+        <div class="col-lg-3 col-md-3 col2"></div>
+        <!-- <div class="col-lg-3 col3"></div> -->
+        <div class="col-lg-3 col-md-3 col-lg-offset-3 col-md-offset-6 col4"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
