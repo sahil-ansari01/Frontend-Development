@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Jumbotron Buttons Glyphicon</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Jumbotron: This is a bootstrap property that is used to highlight any text within the website. -->
+<!-- Button: Button is a bootstrap class that is used to create from simple to default to many different types of buttons.
+             Some of the examples of buttons are: 
+
+              1> btn btn-default
+              2> btn btn-primary
+              3> btn btn-success
+              4> btn btn-info
+              5> btn btn-warning
+              6> btn btn-danger
+              7> btn btn-link
+
+            We can also create buttons of different sizes using class like:
+              1> btn-lg - for large
+              2> btn-sm - for small
+              3> btn-xs - for extra large
+
+            we can also create block using btn-block
+
+            Note: Never do any work targetting pre-defined classes, always creates your own class to make changes into color
+-->
+
+<!-- 
+  Glypicon: It is same as FontAwesome but for bootstrap for using this we use the icon text inside the span tag.
+            span class="glyphicon glyphicon glyphicon-map-marker"></span>
+ -->
+
+<body>
+    
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="jumbotron">
+        <h1>This is a simple heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium aperiam debitis reprehenderit hic, cumque architecto autem laudantium omnis! Nemo sequi at nobis asperiores cum tempore, odio natus perferendis totam!
+        </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <button class="btn btn-default">More info! <span class="glyphicon glyphicon glyphicon-map-marker"></span></button>
+        <button class="btn btn-success btn-lg">Success</button>
+        <button class="btn btn-warning btn-sm">Warning</button>
+        <button class="btn btn-link btn-xs">link</button>
+        <br>
+        <br>
+        <br>
+
+        <button class="btn btn-danger btn-block">danger</button>
+
+        <br>
+        <br>
+        <br>
+
+        <button class="btn btn-primary active">More Item!</button>
+
+        <a href="#" class="btn btn-primary">Click me</a>
+
+        <br>
+        <br>
+
+        <button class="btn btn-danger active" disabled="disabled">More Item!</button>  
+
+      </div>
+    </div>
+  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
