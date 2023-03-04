@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- 
+  label: label is the text which we want to show above the input field
+  input: input creates an empty input field.
+  id: mostly used in backend but always create an unique id 
+  placeholder: this shows text inside and empty input field. Text is shown before we type anything in the input field, but as soon as we start to type the text disappears.
+
+  form-group: to seperate all the elements bootstrap has created a structure, and we follow this structure to create a form using 
+              bootstrap.
+              We create seperate div for different element within the form.
+              To create label and input element in same group.
+
+  form-control: this is another class in bootstrap where all the css is written within.
+
+
+  checkbox: This class is used to create checkbox. All input tag are written inside the label, that's one of the reason to take checkbox.
+ 
+
+  form-inline: Using this class we can create form in a sigle line
+
+
+ -->
+
+ <!-- Extra points: 
+                    In the industry we'll mostly be using bootstrap and not the basic html and css, but the point here is we must know all the basic
+                    concept so that we don't get into trouble.
+  -->
+
+<body>
+    
+    <div class="container">
+    <form>
+
+      <div class="form-group">
+        <label for="forEmail">Email Address</label>
+        <input type="email" class="form-control" id="myEmail" placeholder="Email">
+      </div>
+
+      <div class="form-group">
+        <label for="forPassword">Password</label>
+        <input type="password" class="form-control" id="myPassword" placeholder="password">
+      </div>  
+
+      <div class="form-group">
+        <label for="inputFile">Upload File</label>
+        <input type="file" id="myFile">
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check this if you are Indian. 
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form class="form-inline">
+
+      <div class="form-group">
+        <label for="forEmail">Email Address</label>
+        <input type="email" class="form-control" id="myEmail" placeholder="Email">
+      </div>
+      
+      <div class="form-group">
+        <label for="forPassword">Password</label>
+        <input type="password" class="form-control" id="myPassword" placeholder="password">
+      </div>
+
+    </form>
+
+
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

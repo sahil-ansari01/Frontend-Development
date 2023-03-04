@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!--
+
+  form-horizontal: Uper se neche ke traf form ko create krna ho to hum form-horizontal ka use krte hai.
+
+  input: This all are not the features of bootstrap but of HTML5
+
+        type="date": this used to set local date and time of your country.
+        type="month": this used to set month of the year.
+        type="time": this used to set current time.
+        type="week": this used to set week of the month.
+        type="Number": this used to set a specific number.
+
+
+
+  checkbox: used to create multiple options to choose from it.
+
+            we use "disabled" class to disable any checkbox of our choice
+            as well as disabled attribute inside input element
+
+
+  radio: this is another type of checkable button where we can only check into one element at a time. 
+         While using radio  button make sure you keep all the name of radio input element same, this helps in maintaining the
+         only one check property.
+
+         we use 'disabled' class after radio class to make it disable.
+
+         we use 'radio-inline' class in label element to make all other radios in the same line.
+
+
+  select: this is another type of feature provided by bootstrap this is us create selectable options, to choose from
+          it has feature like drop-down but in upside
+  -->
+
+<body>
+
+    <div class="container">
+
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <label for="forDateTime">Date Time</label>
+                <input type="date" class="form-control" id="ThisDate" placeholder="Date time local">
+            </div>
+
+            <div class="form-group">
+                <label for="forMonth">Month</label>
+                <input type="month" class="form-control" id="ThisMonth" placeholder="Month">
+            </div>
+
+            <div class="form-group">
+                <label for="forTime">Time</label>
+                <input type="time" class="form-control" id="ThisTime" placeholder="Time">
+            </div>
+
+            <div class="form-group">
+                <label for="forWeek">Week</label>
+                <input type="week" class="form-control" id="ThisWeek" placeholder="Week">
+            </div>
+
+            <div class="form-group">
+                <label for="forNumber">Number</label>
+                <input type="Number" class="form-control" id="ThisNumber" placeholder="Number">
+            </div>
+
+        </form>
+
+        <form>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 1
+                </label>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 2
+                </label>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 3
+                </label>
+            </div>
+
+            <div class="checkbox disabled">
+                <label>
+                    <input type="checkbox" disabled> option 4
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="myRadio" id="demo" value="radio1"> This is your final answer. 
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="myRadio" id="demo2" value="radio2"> This is your final answer 2.
+                </label>
+            </div>
+
+            <div class="radio disabled">
+                <label>
+                    <input type="radio" name="myRadio" id="demo3" value="radio3"> This is you final answer 3
+                </label>
+            </div>
+        </form>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> <br> 
+    
+        <form>
+        
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 1
+                </label>
+            </div>
+        
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 2
+                </label>
+            </div>
+        
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> option 3
+                </label>
+            </div>
+        
+            <div class="checkbox disabled">
+                <label>
+                    <input type="checkbox" disabled> option 4
+                </label>
+            </div>
+        
+            
+                <label class="radio-inline">
+                    <input type="radio" name="myRadio" id="demo" value="radio1"> This is your final answer.
+                </label>
+            
+        
+            
+                <label class="radio-inline">
+                    <input type="radio" name="myRadio" id="demo2" value="radio2"> This is your final answer 2.
+                </label>
+    
+                <label class="radio-inline disabled">
+                    <input type="radio" name="myRadio" id="demo3" value="radio3"> This is you final answer 3
+                </label>
+            
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <form>
+
+            <select class="form-control">
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
